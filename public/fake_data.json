@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "image": "https://i.ibb.co/DRjS0H1/Rectangle-2.png",
     "heading": "Introduction to C Programming",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -7,6 +8,7 @@
     "creditHour": 1
   },
   {
+    "id": 2,
     "image": "https://i.ibb.co/gR27QGX/Rectangle-2-1.png",
     "heading": "Introduction to Algorithms",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -14,6 +16,7 @@
     "creditHour": 2
   },
   {
+    "id": 3,
     "image": "https://i.ibb.co/mJtNg5v/Rectangle-2-2.png",
     "heading": "Introduction to C++ for DSA",
     "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
@@ -21,6 +24,7 @@
     "creditHour": 10
   },
   {
+    "id": 4,
     "image": "https://i.ibb.co/gjcXhsG/Rectangle-2-3.png",
     "heading": "Basic Data Structures",
     "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
@@ -28,6 +32,7 @@
     "creditHour": 5
   },
   {
+    "id": 5,
     "image": "https://i.ibb.co/jDbh82S/Rectangle-2-4.png",
     "heading": "Introduction to OOP Python",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
@@ -35,6 +40,7 @@
     "creditHour": 1
   },
   {
+    "id": 6,
     "image": "https://i.ibb.co/RPkbycR/Rectangle-2-5.png",
     "heading": "Software Engineering",
     "description": "Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -42,6 +48,7 @@
     "creditHour": 2
   },
   {
+    "id": 7,
     "image": "https://i.ibb.co/rMwQQf4/Rectangle-2-6.png",
     "heading": "AWS, Cloud Computing",
     "description": "Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -49,6 +56,7 @@
     "creditHour": 5
   },
   {
+    "id": 8,
     "image": "https://i.ibb.co/qxpbmSS/Rectangle-3.png",
     "heading": "Database (MySQL)",
     "description": "Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.",
@@ -56,6 +64,7 @@
     "creditHour": 3
   },
   {
+    "id": 9,
     "image": "https://i.ibb.co/JvkQ13d/Rectangle-3-1.png",
     "heading": "Problem-Solving Part",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",

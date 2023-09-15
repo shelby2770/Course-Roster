@@ -6,8 +6,13 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div id="all_contents">
-        <Contents></Contents>
+      <div className="flex flex-row">
+        <div className='basis-4/5'>
+          <Contents></Contents>
+        </div>
+        <div>
+          <div className="w-1/2 h-12 border-2 border-red-500"></div>
+        </div>
       </div>
     </>
   );
