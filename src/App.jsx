@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./components/Header";
+import Contents from "./components/contents";
 
 function App() {
   return (
     <>
-      <h2 className='text-2xl bg-green-600'>Hello World</h2>
+      <Header></Header>
+      <div id="all_contents">
+        <Contents></Contents>
+      </div>
     </>
   );
 }
