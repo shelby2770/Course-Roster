@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Content from "./Content";
+import PropTypes from "prop-types";
 
-const Contents = () => {
+const Contents = ({ handleAddCourses }) => {
   const [contents, setContents] = useState([]);
   useEffect(() => {
     fetch("fake_data.json")
@@ -13,10 +14,17 @@ const Contents = () => {
   return (
     <div className="grid grid-cols-3 gap-4">
       {contents.map((content) => (
-        <Content key={content.id} content={content}></Content>
+        <Content
+          key={content.id}
+          content={content}
+          handleAddCourses={handleAddCourses}
+        ></Content>
       ))}
     </div>
   );
 };
 
+Contents.propTypes = {
+  handleAddCourses: PropTypes.func,
+};
 export default Contents;
