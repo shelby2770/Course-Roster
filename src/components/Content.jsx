@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { FaDollarSign, FaBookOpen } from "react-icons/fa";
 
 const Content = ({ content, handleAddCourses }) => {
+  const get_handle= ()=> handleAddCourses(content)
   return (
     <div className="bg-base-100 shadow-xl p-2 rounded-lg">
       <figure className="">
@@ -25,7 +26,9 @@ const Content = ({ content, handleAddCourses }) => {
       </div>
       <button
         className="w-full btn rounded-md bg-[#2F80ED] text-white"
-        onClick={()=> handleAddCourses(content)}
+        onClick={
+          get_handle
+        }
       >
         Select
       </button>

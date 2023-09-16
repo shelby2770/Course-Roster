@@ -3,18 +3,18 @@ import Header from "./components/header";
 import Course_adder from "./components/Course_adder";
 import Contents from "./components/contents";
 import { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 function App() {
   const [courses, setCourses] = useState([]);
   const [creditHour, setCreditHour] = useState(20);
   const [price, setPrice] = useState(0);
+
   const handleAddCourses = (content) => {
     let newCreditHour = creditHour - content.creditHour;
-    if (newCreditHour < 0) {
-      alert("No credit remaining");
-    } else if (courses.includes(content)) {
-      alert("Already selected");
-    } else {
+    if (newCreditHour < 0) toast.error("Not enough credit hour remaining");
+    else if (courses.includes(content)) toast.error("You already have selected the course");
+    else {
       const updateCourses = [...courses, content];
       setCourses(updateCourses);
       setCreditHour(newCreditHour);
@@ -23,6 +23,7 @@ function App() {
   };
   return (
     <>
+      <Toaster position="top-right" reverseOrder={true} />
       <Header></Header>
       <div className="flex flex-row justify-between">
         <div className="basis-3/4">
