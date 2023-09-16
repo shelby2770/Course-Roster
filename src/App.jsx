@@ -25,7 +25,7 @@ function App() {
     <>
       <Toaster position="top-right" reverseOrder={true} />
       <Header></Header>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col md:flex-row gap-2">
         <div className="basis-3/4">
           <Contents handleAddCourses={handleAddCourses}></Contents>
         </div>
